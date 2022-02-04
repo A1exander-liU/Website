@@ -271,3 +271,7 @@ li{
 .bottom{
     font-size: 14px;
 }
+
+#nav_pad_top{
+    padding-left: 5px;
+}
