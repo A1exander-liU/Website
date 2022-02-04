@@ -12,7 +12,7 @@
     font-size: small;
     float: left;
     width: 15%;
-    height: 282vh;
+    height: 283vh;
     background-color: #e6e6e6;
     border-width: 1px;
     border-style: solid;
@@ -237,4 +237,37 @@ p{
     font-size: 11px;
     font-family: sans-serif;
     padding-left: 5px;
+}
+
+#mom_pad{
+    float: left;
+    clear: left;
+    margin-top: 16px;
+}
+
+#birth{
+    float: left;
+    clear: left;
+    margin-top: 5px;
+}
+
+#death{
+    float: left;
+    clear: left;
+    margin-top: 5px;
+}
+
+#grave{
+    float: left;
+    clear: left;
+    margin-top: 5px;
+}
+
+li{
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.bottom{
+    font-size: 14px;
 }
