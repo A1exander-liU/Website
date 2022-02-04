@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    height: 10%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#nav{
+    font-size: small;
+    float: left;
+    width: 15%;
+    height: 282vh;
+    background-color: #e6e6e6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #80d4ff;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+#content{
+    width: 85%;
+    height: 255vh;
+    background-color: white;
+    float: right;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+
+#footer{
+    box-sizing: border-box;
+
+    float: right;
+    width: 85%;
+}
+
+img{
+    float: right;
+    width: 300px;
+    height: 340px;
+    padding: 5px 5px 8px 0px;
+    margin-top: 0vh;
+}
+
+
+table{
+    float: right;
+    margin-top: 134px;
+}
+
+tr,td,th{
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+.img_title{
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #decd87;
+    background-color: #decd87;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.caption{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.caption_desc{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+#index{
+    float: left;
+    background-color: #e6e6e6;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+#centered{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.para{
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    padding-left: 5px;
+}
+
+#title{
+    margin-left: 6px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#section1{
+    margin: 10px 0px 5px 10px;
+}
+
+hr{
+    margin: 10px;
+}
+
+#indented{
+    text-indent: 40px;
+    font-size: x-small;
+    font-family: sans-serif;
+}
+
+.family_text{
+    margin-left: 5px;
+    font-size: small;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+
+#quoted{
+    text-indent: 50px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+#bottom{
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.nav_pad{
+    padding-left: 5px;
+}
+.nav_par{
+    padding-left: 5px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#side{
+    margin-left: 10px;
+}
+
+ol{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#family_quote{
+    text-indent: 50px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.left{
+    float: left;
+    clear: left;
+    width: 30%;
+    padding-bottom: 5px;
+}
+.right{
+    float: right;
+    clear: right;
+    width: 70%;
+    padding-bottom: 5px;
+}
+
+#down{
+    clear: both;
+}
+
+p{
+    padding-bottom: 0px;
+}
+
+#pred_pad{
+    float: left;
+    clear: left;
+    margin-top: 27px;
+    padding-bottom: 10px;
+}
+
+.caption_desc_b{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#kingqueen{
+    width: 150px;
+    height: 180px;
+    padding-left: 5px;
+}
+
+#kingwife{
+    width: 200px;
+    height: 145px;
+    padding-left: 5px;
+}
+
+.family_table{
+    float: right;
+    clear: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.fam_img_quo{
+    font-size: 11px;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
