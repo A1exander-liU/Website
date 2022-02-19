@@ -40,8 +40,27 @@ body{
     text-align: center;
 }
 
+@media screen and (min-width: 600px) {
+    #left_col {
+        width: 70%;
+    }
+    #right_col {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #left_col, #right_col {
         width: 100%;
+    }
+    #footer{
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #top_nav {
+        float: none;
+        text-align: center;
     }
 }
