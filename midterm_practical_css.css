@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+
+#navbar{
+    overflow: hidden;
+}
+
+#leftbar{
+    width: 33%;
+    overflow: hidden;
+    float: left;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#middlebar{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+#rightbar{
+    width: 33%;
+    overflow: hidden;
+    float: right;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#rightbar a{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+#content{
+    margin: auto;
+    overflow: hidden;
+}
+
+.quote{
+    clear: both;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.column{
+    width: 33%;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+#footer{
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    background-color: red;
+    height: 15vh;
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 400px) {
+    #leftbar, #rightbar{
+        display: none;
+    }
+    #bottom a{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
