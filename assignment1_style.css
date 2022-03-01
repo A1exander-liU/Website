@@ -21,6 +21,11 @@
     margin-bottom: 0px;
 }
 
+#logo{
+    width: 100%;
+    overflow: hidden;
+    padding-right: 15px;
+}
 #content{
     width: 85%;
     height: 261vh;
