@@ -1,0 +1,135 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="lab7.js"></script>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        #calc {
+            background-color: rgb(48, 42, 42);
+            width: 40%;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        #num1, #num2{
+            margin-bottom: 20px;
+        }
+
+        
+
+        p, h2, h3 {
+            text-align: center;
+            color: rgb(119, 115, 115);
+        }
+
+        h2 {
+            padding-top: 5px;
+            background-color: rgb(236, 138, 10);
+        }
+
+        h3 {
+            margin-bottom: 0px;
+        }
+
+        .blue {
+            background-color: rgb(85, 85, 207);
+            color: white;
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        
+        .red {
+            background-color: rgb(238, 70, 70);
+            color: white;
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        .green {
+            background-color: rgb(66, 216, 66);
+            color: white;
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        .yellow {
+            background-color: rgb(218, 218, 21); 
+            color: white;
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        hr {
+            width: 75%;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        input{
+            border-style: inset;
+        }
+
+        #add, #subtract, #multiply, #divide, #font-up, #font-down{
+            background-color: rgb(236, 138, 10);
+            color: rgb(48, 42, 42);
+        }
+
+        @media screen and (max-width: 650px) {
+            #calc {
+                width: 98%;
+                margin: auto;
+            }
+            #num1, #num2{
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="calc" style="margin-top: 20px; border-radius: 5px;">
+            <h2 style="color: rgb(48, 42, 42); border-radius: 5px 5px 0px 0px;">Basic Calculator</h2>
+            <p style="padding-top: 10px;">
+                First Operand  <input type="text" id="num1">
+            </p>
+            <p>
+                Second Operand <input type="text" id="num2">
+            </p>
+            <p>
+                <button type="button" id="add">+</button>
+                <button type="button" id="subtract">-</button>
+                <button type="button" id="multiply">*</button>
+                <button type="button" id="divide">/</button>
+                <button type="button" id="font-up">Increase Font</button>
+                <button type="button" id="font-down">Decrease Font</button>
+            </p>
+
+            <div>
+                <p style="margin-bottom: 20px; margin-top: 20px;">Result: <span id="result"></span></p>
+            </div>
+            <h3>History</h3>
+            <hr>
+            <div>
+                <p id="history"></p>
+            </div>
+    </div>
+    <a href="index.html">Go Back</a>
+</body>
+
+</html>
