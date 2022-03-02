@@ -6,7 +6,7 @@ function add(){
     jQuery('#result').html(result)
     recent = result
     old = jQuery('#history').html()
-    jQuery('#history').html(old + "<br><span class='blue'>" + recent + "</span>")
+    jQuery('#history').html(old + "<span class='blue'>" + recent + "</span>")
 }
 
 function sub(){
@@ -17,7 +17,7 @@ function sub(){
     jQuery('#result').html(result)
     recent = result
     old = jQuery('#history').html()
-    jQuery('#history').html(old + "<br><span class='red'>" + recent + "</span>")
+    jQuery('#history').html(old + "<span class='red'>" + recent + "</span>")
 }
 
 function mult(){
@@ -28,7 +28,7 @@ function mult(){
     jQuery('#result').html(result)
     recent = result
     old = jQuery('#history').html()
-    jQuery('#history').html(old + "<br><span class='green'>" + recent + "</span>")
+    jQuery('#history').html(old + "<span class='green'>" + recent + "</span>")
 }
 
 function div(){
@@ -39,7 +39,7 @@ function div(){
     jQuery('#result').html(result)
     recent = result
     old = jQuery('#history').html()
-    jQuery('#history').html(old + "<br><span class='yellow'>" + recent + "</span>")
+    jQuery('#history').html(old + "<span class='yellow'>" + recent + "</span>")
 }
 
 function font_increase(){
@@ -47,8 +47,6 @@ function font_increase(){
     current_size = parseInt(jQuery('#history span').css('font-size'))
     current_size = current_size + 10
     jQuery('#history span').css('font-size', current_size)
-    console.log(current_size)
-    console.log()
 }
 
 function font_decrease(){
@@ -57,7 +55,6 @@ function font_decrease(){
     current_size = current_size - 10
     jQuery('#history span').css('font-size', current_size)
 }
-
 
 function setup(){
     jQuery('#add').click(add)
