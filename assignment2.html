@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assignment2.js"></script>
+    <title>Movie Searcher</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #first, #prev, #next, #last, .pages {
+            margin: 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="index.html">Go Back</a>
+    <div id="left-col" style="float: left; width: 50%;">
+        <div>
+            Page Size
+            <select name="Page Size" id="page_size">
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        Enter movie title
+        <input value="" id="movie_title" type="text" />
+        <button id="get_movie">
+            Search
+        </button>
+        <div id="page_buttons">
+            <span id="page"></span>
+        </div>
+        <div id="display_movies">
+            
+        </div>
+
+    </div>
+    <div id="right-col" style="float: right; width: 50%;">
+    </div>
+
+</body>
+
+</html>
