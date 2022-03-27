@@ -58,7 +58,7 @@ function display_backdrop(){
     backdrop_path = $(this).attr('id')
     console.log(backdrop_path)
     console.log(`<img src="https://image.tmdb.org/t/p/original${backdrop_path}">`);
-    if (backdrop_path != null){// use check if there is error then display a message instead of error
+    if (backdrop_path != null){
         $('#right-col').html(`<img src="https://image.tmdb.org/t/p/original${backdrop_path}" width='100%'>`)
     }
     else {
@@ -66,9 +66,8 @@ function display_backdrop(){
     }
 }
 
-function display_movies(data){ // clicking the buttons don't work, need to get the array as a global variable
+function display_movies(data){ 
     // console.log("called or not");
-    // need to add code to keep track of current page current_page = $(this).val(), grab value of the button which represents the page number
     movie = data.results
     total_pages = Math.ceil(movie.length / page_size)
     display_buttons(total_pages)
@@ -91,7 +90,7 @@ function get_request(){
     console.log("sending request...")
     movie_name = $('#movie_title').val()
     $.ajax(
-        { // change to global variable movie_name
+        { 
             "url": `https://api.themoviedb.org/3/search/movie?api_key=ed4ef9b0f9bcb9c237ab83a2c2ffb909&query=${movie_name}`,
             "type": "GET",
             "success": display_movies
@@ -106,8 +105,6 @@ function setup(){
     $('#page_size').change(get_page_size)
     $('body').on('click', '.pages', get_current_page)
     $('body').on('click', 'button', get_first_prev_next_last)
-    // click button to display movies of that page
-    // line 5 in this code: call get_request again, which will then call display_movies, no length undefined err this time
 }
 
 $(document).ready(setup)
